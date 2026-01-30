@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 240 10% 4%;
+  --card: 0 0% 98%;
+  --card-foreground: 240 10% 4%;
+  --muted: 240 5% 96%;
+  --muted-foreground: 240 4% 46%;
+  --border: 240 6% 90%;
+  --primary: 240 10% 4%;
+  --primary-foreground: 0 0% 98%;
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+}
+
+::selection {
+  background: rgba(0,0,0,.1);
+}

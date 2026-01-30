@@ -1,0 +1,35 @@
+{
+  "adam": {
+    "name": "Adam Tan",
+    "role": "Group Executive Director",
+    "company": "Gyldan Holdings Sdn. Bhd.",
+    "bio": "GYLDAN | The Integrated Consulting Group",
+    "avatarUrl": "https://static.myqrcode.mobi/user-media-prod/GYLDAN-MAIN-BLACK_fbc8d70b_c91jjl",
+    "vcfUrl": "/adam.vcf",
+    "contact": {
+      "email": "tanjx@gyldan.my",
+      "phone": "+60178726713",
+      "website": "https://gyldan.my/"
+    },
+    "social": [
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/adamtan15/", "subtitle": "Connect" },
+      { "label": "gyldan.my", "href": "https://gyldan.my/", "subtitle": "The Integrated Consulting Group" }
+    ]
+  },
+  "ryan": {
+    "name": "Ryan Ng",
+    "role": "Leasing Manager",
+    "company": "Gyldan Holdings Sdn. Bhd.",
+    "bio": "GYLDAN | The Integrated Consulting Group",
+    "avatarUrl": "https://static.myqrcode.mobi/user-media-prod/GYLDAN-MAIN-BLACK_fbc8d70b_c91jjl",
+    "vcfUrl": "/ryan.vcf",
+    "contact": {
+      "email": "ryan.ng@gyldan.my",
+      "phone": "+601120939415",
+      "website": "https://gyldan.my/"
+    },
+    "social": [
+      { "label": "gyldan.my", "href": "https://gyldan.my/", "subtitle": "The Integrated Consulting Group" }
+    ]
+  }
+}
