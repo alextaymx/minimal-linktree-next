@@ -3,7 +3,7 @@
     "name": "Adam Tan",
     "role": "Group Executive Director",
     "company": "Gyldan Holdings Sdn. Bhd.",
-    "bio": "GYLDAN | The Integrated Consulting Group",
+    "bio": "Leading GYLDAN's integrated advisory services across property, hospitality, digital systems, branding and financial advisory.",
     "avatarUrl": "https://static.myqrcode.mobi/user-media-prod/GYLDAN-MAIN-BLACK_fbc8d70b_c91jjl",
     "vcfUrl": "/adam.vcf",
     "contact": {
@@ -19,8 +19,8 @@
   "ryan": {
     "name": "Ryan Ng",
     "role": "Leasing Manager",
-    "company": "Gyldan Holdings Sdn. Bhd.",
-    "bio": "GYLDAN | The Integrated Consulting Group",
+    "company": "Gyldan Properties",
+    "bio": "Commercial property advisory — supporting asset owners and occupiers through positioning, tenant matching, and transaction support.",
     "avatarUrl": "https://static.myqrcode.mobi/user-media-prod/GYLDAN-MAIN-BLACK_fbc8d70b_c91jjl",
     "vcfUrl": "/ryan.vcf",
     "contact": {
@@ -29,6 +29,7 @@
       "website": "https://gyldan.my/"
     },
     "social": [
+      { "label": "GYLDAN Properties", "href": "https://www.linkedin.com/showcase/gyldan-properties", "subtitle": "Commercial Property Advisory" },
       { "label": "gyldan.my", "href": "https://gyldan.my/", "subtitle": "The Integrated Consulting Group" }
     ]
   }

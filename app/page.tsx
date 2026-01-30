@@ -1,5 +1,15 @@
 import Link from "next/link";
+import { Metadata } from "next";
 import { getAllUsernames, getUser } from "@/lib/profile";
+
+export const metadata: Metadata = {
+  title: "Team Directory | GYLDAN",
+  description: "Browse the GYLDAN team directory. Access digital business cards and contact information for our consulting professionals.",
+  openGraph: {
+    title: "Team Directory | GYLDAN",
+    description: "Browse the GYLDAN team directory. Access digital business cards and contact information for our consulting professionals.",
+  },
+};
 
 export default function Page() {
   const usernames = getAllUsernames();
@@ -9,10 +19,10 @@ export default function Page() {
       <div className="mx-auto flex w-full max-w-md flex-col px-5 pb-14 pt-10">
         <header className="flex flex-col items-center text-center">
           <h1 className="text-2xl font-semibold tracking-tight">
-            User Contacts
+            GYLDAN Team
           </h1>
           <p className="mt-2 text-sm text-zinc-500">
-            Select a contact to view
+            The Integrated Consulting Group
           </p>
         </header>
 

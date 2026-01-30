@@ -19,8 +19,12 @@ export async function generateMetadata({ params }: Props) {
   if (!user) return { title: "Not Found" };
 
   return {
-    title: `${user.name} | Profile`,
-    description: user.bio,
+    title: `${user.name} - ${user.role}`,
+    description: `Contact ${user.name}, ${user.role} at ${user.company}. ${user.bio}`,
+    openGraph: {
+      title: `${user.name} - ${user.role} | GYLDAN`,
+      description: `Contact ${user.name}, ${user.role} at ${user.company}. Access digital business card and contact information.`,
+    },
   };
 }
 

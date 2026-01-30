@@ -5,13 +5,19 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Minimal Profile",
-  description: "A minimalist Link-in-bio profile page.",
-  metadataBase: new URL("https://example.com"),
+  title: {
+    default: "GYLDAN | The Integrated Consulting Group",
+    template: "%s | GYLDAN",
+  },
+  description: "GYLDAN - The Integrated Consulting Group. Execution-led services across property, hospitality, digital systems, branding and financial advisory.",
+  metadataBase: new URL("https://gyldan.my"),
+  keywords: ["GYLDAN", "consulting", "integrated consulting group", "property advisory", "commercial leasing", "GYLDAN Properties", "business card", "vCard", "Malaysia"],
+  authors: [{ name: "GYLDAN Holdings Sdn. Bhd." }],
   openGraph: {
-    title: "Minimal Profile",
-    description: "A minimalist Link-in-bio profile page.",
-    url: "https://example.com",
+    title: "GYLDAN | The Integrated Consulting Group",
+    description: "Execution-led services across property, hospitality, digital systems, branding and financial advisory. Connect with our team.",
+    url: "https://gyldan.my",
+    siteName: "GYLDAN",
     type: "website",
   },
   robots: { index: true, follow: true },
